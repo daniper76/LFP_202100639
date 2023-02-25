@@ -3,7 +3,7 @@ class Pelicula:
         self.nombre =str(nombre).strip()
         self.actores=actores.split(",")
         self.ano=str(ano).strip()
-        self.genero=str(genero).strip
+        self.genero=str(genero).strip()
         self.busca_actor=""
         self.busca_ano=""
         self.busca_genero=""
